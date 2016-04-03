@@ -1,0 +1,80 @@
+<div class="container inPage-wp">
+    <div class="close-x"><a href="#/">X</a></div>
+    <div class="col-md-12">
+        <div class="col-md-7 about-top-left">
+            <div class="inPage_title">About The Federation of Jewish Communities (FJC)</div>
+            <div class="inPage_txt">
+                Reviving the past, sustaining the present, and building the future of the Jewish communities in the Former Soviet Union- body and soul.
+            </div>
+            <div class="inPage_txt">
+                The FJC is the largest network of social, educational, cultural and religious services supporting Jews and Jewish life across the Former Soviet Union. From large cities to rural villages, we are there, in over 400 communities to fill the needs -physical or spiritual – of Jews in the FSU. We see it as our duty to support the older generation, guide and encourage the current generation, and provide opportunities and education for the next generation. We provide everything necessary to rebuild strengthen and sustain Jewish communal life and culture in the FSU.
+            </div>
+            <div class="inPage_txt">
+                <div class="dFlex">To learn more visit our site at => <a href="https://fjc.ru/" alt="FJC web site" target="_blank"><div class="fjc_small_logo"></div></a></div>
+                <div class="dFlex">and join our Facebook page =>  <a href="https://www.facebook.com/FJCofCIS" alt="FJC facebook page" target="_blank"><div class="small_facebook"></div></a></div>
+            </div>
+        </div>
+        <div class="col-md-5 about-top-right">
+            <div class="dFlex fjc_logo-wp">
+                <div class="fjc_logo">
+                    <img src="https://fjc.ru/wp-content/themes/fjc/img/logo_text.gif" class="fjc_img">
+                </div>
+            </div>
+            <div class="inPage_title-small">US Office:</div>
+            <div class="inPage_txt">
+                <div>Federation of Jewish Communities of the CIS</div>
+                <div>410 Park Ave.</div>
+                <div>Suite 1500</div>
+                <div>NYC NY 10022</div>
+                <div>Tel. +1-212-262-3688</div>
+                <div>Fax +1-212-262-2357</div>
+                <div><a href="maito:fjc.office.us@gmail.com">fjc.office.us@gmail.com</a></div>
+            </div>
+            <div class="inPage_title-small">Main Bureau:</div>
+            <div class="inPage_txt">
+                <div>Federation of Jewish Communities of the CIS</div>
+                <div>5a, 2nd Vysheslavtzev Pereulok</div>
+                <div>Moscow, Russia, 127055</div>
+                <div>Tel: +7-495-737-8275</div>
+                <div>Fax: +7-495-737-8276</div>
+                <div><a href="maito:office@fjc-cis.com">office@fjc-cis.com</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="inPage_title aboutBotTitle">Contact us:</div>
+    </div>
+    <div class="col-md-12">
+        <form class="about-form" ng-submit="submitAbout();" name='aboutForm' method="POST">
+            <div class="col-md-5">
+                <div class="dFlex box-line">
+                    <div class="false-input left_input about-input">
+                        <div class="required_star"></div>
+                        <input type="text" class="about-input" ng-model="lead.fname" name="lead_fname" placeholder="First Name" required>
+                    </div>
+                    <div class="false-input about-input">
+                        <div class="required_star"></div>
+                        <input type="text" ng-model="lead.lname" class="about-input" name="lead_lname" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="box-line">
+                    <div class="false-input input_long">
+                        <div class="required_star"></div>
+                        <input type="email" ng-model="lead.email" class="about-input" name="lead_email" placeholder="E-mail Address" required>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 about-bot-right">
+                <div class="box-line">
+                    <textarea ng-model="lead.message" name="lead_message" placeholder="Message" class="about-input" required></textarea>
+                </div>
+                <div class="box-line">
+                    <input type="submit" value="Submit" class="about-submit"/>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-12 alert-success mailSendAlert">
+        <div>Thank you for your contact, we will try to answer you soon as we can!</div>
+    </div>
+</div>

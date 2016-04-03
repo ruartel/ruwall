@@ -1,0 +1,251 @@
+<div class="col-md-12 page-wp">
+    <form class="loved-form" ng-submit="submitLoved();" name='lovedForm' method="POST" role="form">
+    <div class="col-md-12 top-page">
+        <div class="col-md-4 left-page">
+            <h1 class="pageTitle">Add a Loved One</h1>
+            <div class="pageSubTitle">International Memorial Wall</div>
+            <div class="box-fields">
+                <div class="dFlex box-line box-title-wp">
+                    <div class="box-step">1</div>
+                    <div class="box-title">Your info</div>
+                </div>    
+                <div class="dFlex box-line">
+                    <div class="false-input left_input">
+                        <div class="required_star"></div>
+                        <input type="text" ng-model="lead.fname" name="lead_fname" placeholder="First Name" required>
+                    </div>
+                    <div class="false-input">
+                        <div class="required_star"></div>
+                        <input type="text" ng-model="lead.lname" name="lead_lname" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="box-line">
+                    <div class="false-input input_long">
+                        <div class="required_star"></div>
+                        <input type="email" ng-model="lead.email" name="lead_email" placeholder="E-mail Address" required>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="col-md-12" ng-repeat="user in users">    
+        <div class="col-md-4 left-page">    
+            <div class="box-fields">
+                <div class="dFlex box-line box-title-wp">
+                    <div class="box-step">2</div>
+                    <div class="box-title">Submit the memory of a loved one</div>
+                </div>
+                <div>
+                    <div class="loved_one_wp">
+                        <div class="dFlex box-line">
+                            <div class="false-input left_input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="user.fname" name="user_fname" placeholder="First Name" required>
+                            </div>
+                            <div class="false-input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="user.lname" name="user_lname" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="box-line">
+                            <div class="false-input input_long">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="user.hebrew_name" name="user_hebrewname" placeholder="Hebrew Name" dir="rtl"/>
+                            </div>
+                        </div>
+                        <div class="box-line">
+                            <textarea ng-model="user.description" name="user_description" placeholder="Additional Information about your loved one / Community he/she was from"></textarea>
+                        </div>
+                        <div class="dFlex box-line">
+                            <div class="false-input left_input">
+                                <div class="required_star"></div>
+                                <input ui-date="dateOptions" datepicker ng-model="user.greg_date" name="user_greg_date" placeholder="Date of Passing" required>
+                            </div>
+                            <div class="false-input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="user.hebrew_date" placeholder="Hebrew Date" name="user_hebrew_date">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="col-md-3 fileLabel">Upload Image:</label>
+                            <!--<div class="col-md-3 custom-file-input button" ng-file-select ng-file-change="upload($files);">Select File</div>-->
+                            <input type="file" class="col-md-3 custom-file-input" ng-model="user.fileInput" name="user_file" onchange="angular.element(this).scope().fileNameChanged(this, event);"/>
+                            <div class="imgExp" class="col-md-6 fileText">
+                            Minimum image size 210x265. Allowed formats: PNG, JPG, GIF
+                            </div>
+                        </div>
+                        <div class="hidden"><img ng-src="{{myCroppedImage}}" ng-model="user.image" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="col-md-1"></div>    
+        <div class="col-md-7 right-page">
+            <div class="ngdialog-content card-wp form_card">
+                <div class="ngdialog-message card-wp">
+                    <div class="ud_wp">                    
+                        <div class="dFlex">
+                            <div class="ud_left">
+                                <div class="ud_entitle">{{user.fname}} {{user.lname}}</div>
+                                <div class="ud_hebtitle">{{user.hebrew_name}}</div>
+                                <hr class="ud_hr">
+                                <div class="ud_txt"><pre>{{user.description}}</pre></div>
+                            </div>
+                            <div class="ud_right">
+                                <div class="ud_imgDV">
+                                    <img ng-src="{{myCroppedImage}}" ng-model="user.image" id="user_image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ud_bottom">
+                            <div class="ud_date" ng-bind-html="trustedGregDate"></div>
+                            <div class="ud_hebdate">{{user.hebrew_date}}</div>
+                            <div class="ud_tn">ת.נ.צ.ב.ה</div>
+                            <div class="ud_share">Share the memory</div>
+                        </div>
+                    </div>    
+                </div>
+            </div> 
+        </div>    
+    </div>
+    <!--<div class="col-md-12">
+        <div class="col-md-2">
+            <input type="Button" ng-click="addFields()" value="Add Another Loved One" class="loved-btn"/>
+        </div>
+    </div>-->
+    <div class="col-md-12 donation-box-fields">
+        <div class="col-md-4 left-page">    
+            <div class="box-fields">
+                <div class="dFlex box-line box-title-wp">
+                    <div class="box-step">3</div>
+                    <div class="box-title">Suggested Donation</div>
+                </div>
+                <div class="box-line donation-box">
+                    <div class="box-txt">
+                        I would like to donate to:
+                    </div>
+                    <ul class="donations-ul">
+                        <li ng-repeat="donationTo in donationsTo">
+                            <label>
+                                <input type="radio" ng-value="{{donationTo.id}}" ng-model="$parent.donationTo" name="donationTo">
+                                {{donationTo.name}}
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-line donation-box">
+                    <div class="box-txt">
+                        Suggested Donation <div class="required_star-donation"></div>
+                    </div>
+                    <ul class="donations-ul donations-ul-v">
+                        <li ng-repeat="donationV in donationsV">
+                            <label>
+                                <input type="radio" ng-model="$parent.donationV" name="donationValues" ng-value="{{donationV.id}}" ng-change='donVChanged({{donationV.id}});' required>
+                                {{donationV.name}}
+                            </label>
+                            <div class="donationV-other_wp" id="donV_other{{donationV.id}}">
+                                <input type="text" placeholder="Other amount($)" ng-model="$parent.donationOther" name="donationOtherVal" class="donationV-other">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-line donation-box">
+                    <div class="box-txt">
+                        Payment Method:
+                    </div>
+                    <ul class="donations-ul">
+                        <li ng-repeat="donT in donationsType">
+                            <label>
+                                <input ng-model="$parent.donT" ng-change="donTypeChange({{donT.id}})" ng-value="{{donT.id}}" type="radio" name="donationT">
+                                {{donT.name}}
+                            </label>
+                        </li>
+                    </ul>
+                    <div id="ccdet">
+                        <div class="box-title">Credit Card</div>
+                        <div class="box-line">
+                            <div class="false-input input_long">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.number" name="cc_number" placeholder="Card Number">
+                            </div>
+                        </div>
+                        <div class="dFlex box-line">
+                            <div class="select_wp">
+                                <!--<select ng-options="n for n in [] | range:1:13" ng-model="cc.month" name="cc_month"></select>-->
+                                <select ng-model='cc.month' ng-options='opt as opt.name for opt in cc_monthOptions'></select>
+                            </div>
+                            <div class="select_wp">
+<!--                                <select ng-options="n for n in [] | rangeYear" ng-model="cc.year" name="cc_year" ></select>-->
+                                <select ng-model='cc.year' ng-options='opt as opt.name for opt in cc_yearsOptions'></select>
+                            </div>
+                            <div class="false-input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.secCode" name="cc_code" placeholder="Security Code" maxlength="3" >
+                            </div>
+                        </div>
+                        <div class="dFlex box-line">
+                            <div class="false-input input_long">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.name" name="cc_name" placeholder="Cardholder Name" />
+                            </div>
+                        </div>
+                        <div class="box-line">
+                            <div class="false-input input_long">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.address1" name="cc_address1" placeholder="Street">
+                            </div>
+                        </div>
+                        <div class="box-line">
+                            <div class="false-input input_long">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.address2" name="cc_address2" placeholder="Street">
+                            </div>
+                        </div>
+                        <div class="dFlex box-line">
+                            <div class="false-input left_input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.city" name="cc_city" placeholder="City">
+                            </div>
+                            <div class="false-input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.state" name="cc_state" placeholder="State">
+                            </div>
+                        </div>
+                        <div class="dFlex box-line">
+                            <div class="false-input left_input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.country" name="cc_country" placeholder="Country">
+                            </div>
+                            <div class="false-input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="cc.zip" name="cc_zip" placeholder="Zip">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="col-md-12">
+        <div class="col-md-4 left-page">
+            <div re-captcha ng-model="user.captcha" id="recaptcha_widget" style="display:none">
+                <div id="recaptcha_image"></div>
+                <img id="recaptcha_logo" alt="" src="https://www.google.com/recaptcha/api/img/clean/logo.png">
+                <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" />
+            </div>
+        </div>    
+    </div>-->
+    <div class="col-md-12">
+        <div class="col-md-4 left-page submit-wp">
+            <input type="submit" value="Submit" class="loved-btn submit-btn"/>
+        </div>
+    </div>
+    </form>    
+</div>
+<div class="cropBackDialog"></div>
+<div class="cropImageWP">
+    <div><button class="loved-btn" ng-click="closeDropDialog();">save changes</button></div>
+    <div class="cropArea">
+        <img-crop image="myImage" result-image="myCroppedImage" area-type="square"></img-crop>
+    </div>  
+</div>

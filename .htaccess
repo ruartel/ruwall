@@ -1,0 +1,11 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^yizkorwall\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.yizkorwall\.com$
+RewriteRule ^/?$ "https\:\/\/yizkorwall\.org\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^yizkorwall\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.yizkorwall\.net$
+RewriteRule ^/?$ "https\:\/\/yizkorwall\.org\/" [R=301,L]
+

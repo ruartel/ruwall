@@ -1,0 +1,75 @@
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Emails Text
+                </h1>
+                <ol class="breadcrumb">
+                    <li>
+                        <i class="fa fa-dashboard"></i>  <a href="#/">Dashboard</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa fa-table"></i> Emails Text
+                    </li>
+                </ol>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-lg-12">
+                <h4>Codes for use in the mail body</h4>
+                <div>
+                    <ul>
+                        <li>$[dfname]$ - Donor first name</li>
+                        <li>$[dfullname]$ - Donor full name</li>
+                        <li>$[lfname]$ - Loved one first name</li>
+                        <li>$[lfullname]$ - Loved one full name</li>
+                        <li>$[ldate]$ - Loved one pass date</li>
+                        <li>$[lhdate]$ - Loved one hebrew pass date</li>
+                        <li>$[lurl]$ - Loved one personal page</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <form role="form" ng-submit="saveEmail();">
+            <div class="row">
+                <div class="col-lg-2">
+                    <button type="submit" class="btn btn-lg btn-success btn-block">Submit All Emails</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Subscription Email</h2>
+                    <div class="form-group">
+                        <input class="form-control" ng-model="subsMail_subject" placeholder="Email subject">
+                    </div>
+                    <text-angular ng-model="subsMail"></text-angular>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Authorization Email</h2>
+                    <div class="form-group">
+                        <input class="form-control" ng-model="authMail_subject" placeholder="Email subject">
+                    </div>
+                    <text-angular ng-model="authMail"></text-angular>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Yahrzeit Email</h2>
+                    <div class="form-group">
+                        <input class="form-control" ng-model="yahMail_subject" placeholder="Email subject">
+                    </div>
+                    <text-angular ng-model="yahMail"></text-angular>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2">
+                    <button type="submit" class="btn btn-lg btn-success btn-block">Submit All Emails</button>
+                </div>
+            </div>
+        </form>    
+    </div>
+</div>

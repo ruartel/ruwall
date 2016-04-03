@@ -1,0 +1,27 @@
+<div deckgrid class="deckgrid" source="AllUsers">
+    <div class="a-card" ng-controller="CardController" ng-click="openCard(card.id);" id="a-card_{{card.id}}">
+        <div>
+            <div class="card_share">
+                <div>Share</div>
+                <div class="dFlex social_wp social_wp_small">
+                    <div class="social_icon fb_icon" ng-click="shareFB(card.id);"></div>
+                    <div class="social_icon twitter_icon">
+                        <a href="https://twitter.com/share?url=http://yizkorwall.com/d/d.php?id={{card.id}}" target="_blank">Tweet</a>
+                    </div>
+                    <div class="social_icon email_icon"><a href="mailto:me@me.com?subject=Yzkor-{{card.first_name}}+{{card.last_name}}&body=http://yizkorwall.com/d/d.php?id%3D{{card.id}}">EMAil</a></div>
+                </div>
+            </div>
+            <img src="" data-ng-src="{{card.dimg != '' && card.dimg || '/images/star.png'}}" ng-class="{card_img: card.dimg != '', star_img: card.dimg == ''}">
+        </div>
+        <div class="card-bottom">
+            <div class="card-name">{{card.first_name}} {{card.last_name}}</div>
+            <div class="card-hebName">{{card.hname}}</div>
+            <hr>
+            <div ng-class="{hide: card.candle == 0, candle_wp: card.candle == 1}">
+                <div class="candle"></div>
+            </div>
+            <div class="card-date">{{card.theDate}}</div>
+            <div class="card-tn">ת.נ.צ.ב.ה</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    All Cards
+                </h1>
+                <ol class="breadcrumb">
+                    <li>
+                        <i class="fa fa-dashboard"></i>  <a href="#/">Dashboard</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa fa-table"></i> All Cards
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>All Cards</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>id #</th>
+                                <th>Name</th>
+                                <th>Hebrew name</th>
+                                <th>Pass date</th>
+                                <th>Text</th>
+                                <th>Picture</th>
+                                <th><button ng-click="authAllChk();" class="btn green-btn">OK</button> <button ng-click="removeCards();" class="btn red-btn">RMV</button></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="card in cards" id="tdCard_{{card.id}}">
+                                <td>{{card.id}}</td>
+                                <td>{{card.first_name}} {{card.last_name}}</td>
+                                <td>{{card.hname}}</td>
+                                <td>{{card.theDate}}</td>
+                                <td>{{card.dtext}}</td>
+                                <td><img src="{{card.dimg}}" width=100 ></td>
+                                <td>
+                                    <input type="checkbox" class='okChk' name="ok_{{card.id}}" id="ok_{{card.id}}">
+                                    <a href="/d/d.php?id={{card.id}}" target="_blank">view page</a> /
+                                    <a href="/#/edit/{{card.id}}" target="_blank">edit</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    

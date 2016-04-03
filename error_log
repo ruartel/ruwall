@@ -1,0 +1,224 @@
+[04-Feb-2015 17:49:24 America/Chicago] PHP Warning:  mysqli::query(): Empty query in /home1/fjc/public_html/ruwall/meekrodb.2.3.class.php on line 629
+[04-Feb-2015 18:10:25 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home1/fjc/public_html/ruwall/pssdb.php on line 69
+[04-Feb-2015 18:10:28 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home1/fjc/public_html/ruwall/pssdb.php on line 69
+[04-Feb-2015 18:11:06 America/Chicago] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home1/fjc/public_html/ruwall/pssdb.php on line 69
+[04-Feb-2015 18:18:04 America/Chicago] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in /home1/fjc/public_html/ruwall/pssdb.php on line 53
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[05-Feb-2015 15:48:22 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/pssdb2.php on line 17
+[20-Feb-2015 12:55:31 America/Chicago] PHP Warning:  require_once(../functions.php): failed to open stream: No such file or directory in /home1/fjc/public_html/ruwall/Controller/User.php on line 2
+[20-Feb-2015 12:55:31 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../functions.php' (include_path='.:/opt/php54/lib/php') in /home1/fjc/public_html/ruwall/Controller/User.php on line 2
+[07-Mar-2015 15:10:21 America/Chicago] PHP Fatal error:  Class 'OAuthTokenCredential' not found in /home1/fjc/public_html/ruwall/saveLoved.php on line 262
+[18-Mar-2015 17:52:13 America/Chicago] PHP Warning:  fopen(http://yizkorwall.com/images/users/user_327.png): failed to open stream: HTTP wrapper does not support writeable connections in /home1/fjc/public_html/ruwall/uploadImg.php on line 24
+[18-Mar-2015 17:52:13 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/uploadImg.php on line 25
+[18-Mar-2015 17:52:13 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home1/fjc/public_html/ruwall/uploadImg.php on line 26
+[20-Mar-2015 06:16:52 America/Chicago] PHP Warning:  date_format() expects parameter 1 to be DateTime, string given in /home1/fjc/public_html/ruwall/editLoved.php on line 56
+[20-Mar-2015 06:17:03 America/Chicago] PHP Warning:  date_format() expects parameter 1 to be DateTime, string given in /home1/fjc/public_html/ruwall/editLoved.php on line 56
+[21-Mar-2015 17:17:39 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/fjc/public_html/ruwall/Controller/YizkorMail.php on line 40
+[21-Mar-2015 17:18:35 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/fjc/public_html/ruwall/Controller/YizkorMail.php on line 40
+[21-Mar-2015 17:18:41 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/fjc/public_html/ruwall/Controller/YizkorMail.php on line 40
+[21-Mar-2015 17:20:01 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home1/fjc/public_html/ruwall/Controller/YizkorMail.php on line 41
+[23-Mar-2015 17:25:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home1/fjc/public_html/ruwall/sitemapCreate.php on line 7
+[13-Apr-2015 16:03:38 America/Chicago] PHP Fatal error:  Uncaught <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : /home1/fjc/public_html/ruwall/html2pdf/html2pdf.class.php<br>Ligne : 1251<br><br>La balise <b>&lt;SCRIPT&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>o_SCRIPT</b> (pour l'ouverture) et <b>c_SCRIPT</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.
+  thrown in /home1/fjc/public_html/ruwall/html2pdf/html2pdf.class.php on line 1251
+[15-Apr-2015 07:23:57 America/Chicago] PHP Warning:  fopen(): Filename cannot be empty in /home1/fjc/public_html/ruwall/uploadImg.php on line 15
+[15-Apr-2015 07:23:57 America/Chicago] PHP Warning:  fopen(): Filename cannot be empty in /home1/fjc/public_html/ruwall/uploadImg.php on line 15
+[15-Apr-2015 08:00:43 America/Chicago] PHP Warning:  fopen(): Filename cannot be empty in /home1/fjc/public_html/ruwall/uploadImg.php on line 15
+[15-Apr-2015 08:10:34 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home1/fjc/public_html/ruwall/Controller/YizkorMail.php on line 143
+[15-Apr-2015 08:10:47 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home1/fjc/public_html/ruwall/Controller/YizkorMail.php on line 143
+[15-Apr-2015 08:11:48 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home1/fjc/public_html/ruwall/Controller/YizkorMail.php on line 143
+[15-Apr-2015 08:15:41 America/Chicago] PHP Fatal error:  Class 'PHPMailer' not found in /home1/fjc/public_html/ruwall/Controller/YizkorMail.php on line 143
+[19-Apr-2015 15:49:45 America/Chicago] PHP Warning:  fopen(): Filename cannot be empty in /home1/fjc/public_html/ruwall/uploadImg.php on line 15
+[20-Apr-2015 14:17:06 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: Yizkor' in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php:253
+Stack trace:
+#0 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home1/fjc/public_html/ruwall/saveLoved.php(407): Mailchimp_Lists->subscribe('Yizkor', Array)
+#3 {main}
+  thrown in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php on line 253
+[20-Apr-2015 14:17:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: Yizkor' in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php:253
+Stack trace:
+#0 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home1/fjc/public_html/ruwall/saveLoved.php(407): Mailchimp_Lists->subscribe('Yizkor', Array)
+#3 {main}
+  thrown in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php on line 253
+[20-Apr-2015 14:18:08 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: Yizkor' in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php:253
+Stack trace:
+#0 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home1/fjc/public_html/ruwall/saveLoved.php(407): Mailchimp_Lists->subscribe('Yizkor', Array)
+#3 {main}
+  thrown in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php on line 253
+[20-Apr-2015 14:20:18 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: 187445' in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php:253
+Stack trace:
+#0 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home1/fjc/public_html/ruwall/saveLoved.php(407): Mailchimp_Lists->subscribe('187445', Array)
+#3 {main}
+  thrown in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php on line 253
+[20-Apr-2015 14:20:38 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_List_DoesNotExist' with message 'Invalid MailChimp List ID: 187445' in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php:253
+Stack trace:
+#0 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home1/fjc/public_html/ruwall/saveLoved.php(407): Mailchimp_Lists->subscribe('187445', Array)
+#3 {main}
+  thrown in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php on line 253
+[21-Apr-2015 07:50:36 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_List_AlreadySubscribed' with message 'danielgordon770@gmail.com is already subscribed to the list.' in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php:253
+Stack trace:
+#0 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home1/fjc/public_html/ruwall/saveLoved.php(407): Mailchimp_Lists->subscribe('c4e6938325', Array)
+#3 {main}
+  thrown in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php on line 253
+[21-Apr-2015 07:50:54 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_List_AlreadySubscribed' with message 'danielgordon770@gmail.com is already subscribed to the list.' in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php:253
+Stack trace:
+#0 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home1/fjc/public_html/ruwall/saveLoved.php(407): Mailchimp_Lists->subscribe('c4e6938325', Array)
+#3 {main}
+  thrown in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php on line 253
+[21-Apr-2015 08:06:56 America/Chicago] PHP Fatal error:  Uncaught exception 'Mailchimp_List_AlreadySubscribed' with message 'ruartel@gmail.com is already subscribed to the list.' in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php:253
+Stack trace:
+#0 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php(228): Mailchimp->castError(Array)
+#1 /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp/Lists.php(744): Mailchimp->call('lists/subscribe', Array)
+#2 /home1/fjc/public_html/ruwall/saveLoved.php(407): Mailchimp_Lists->subscribe('c4e6938325', Array)
+#3 {main}
+  thrown in /home1/fjc/public_html/ruwall/mailchimp/src/Mailchimp.php on line 253

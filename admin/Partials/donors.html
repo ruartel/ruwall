@@ -1,0 +1,61 @@
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    All Donors
+                </h1>
+                <ol class="breadcrumb">
+                    <li>
+                        <i class="fa fa-dashboard"></i>  <a href="#/">Dashboard</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa fa-table"></i> All Donors
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>All Donors</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Payment status</th>
+                                <th>Donate to</th>
+                                <th>Payment Method</th>
+                                <th>Transaction ID</th>
+                                <th>Suggested donation</th>
+                                <th>Amount $</th>
+                                <th>#</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="donor in donors">
+                                <td>{{donor.cdate}}</td>
+                                <td>{{donor.fname}} {{donor.lname}}</td>
+                                <td>{{donor.email}}</td>
+                                <td>{{donor.payment_status}}</td>
+                                <td>{{donor.donation_type}}</td>
+                                <td>{{donor.payment_method}}</td>
+                                <td>{{donor.transaction_id}}</td>
+                                <td>{{donor.suggested_donation}}</td>
+                                <td>{{donor.payment_amount}}</td>
+                                <td>
+                                    <a href="javascript:void(0)" ng-click="sendMailToDonor(donor.email);">send mail</a>
+<!--                                    <a href="{{donor.payment_detail_url}}" target="_blank">details</a>
+                                    <a href="{{donor.refund_url}}" target="_blank">refund</a>-->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    

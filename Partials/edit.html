@@ -1,0 +1,100 @@
+<div class="col-md-12 page-wp">
+    <form class="loved-form" ng-submit="submitLoved();" name='lovedForm' method="POST" role="form">
+    <div class="col-md-12" ng-repeat="user in users">    
+        <div class="col-md-4 left-page">    
+            <div class="box-fields">
+                <div class="dFlex box-line box-title-wp">
+                    <div class="box-step">1</div>
+                    <div class="box-title">Edit the memory of a loved one</div>
+                </div>
+                <div>
+                    <div class="loved_one_wp">
+                        <div class="dFlex box-line">
+                            <div class="false-input left_input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="user.fname" name="user_fname" placeholder="First Name" required>
+                            </div>
+                            <div class="false-input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="user.lname" name="user_lname" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="box-line">
+                            <div class="false-input input_long">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="user.hebrew_name" name="user_hebrewname" placeholder="Hebrew Name" dir="rtl"/>
+                            </div>
+                        </div>
+                        <div class="box-line">
+                            <textarea ng-model="user.description" name="user_description" placeholder="Additional Information about your loved one / Community he/she was from"></textarea>
+                        </div>
+                        <div class="dFlex box-line">
+                            <div class="false-input left_input">
+                                <div class="required_star"></div>
+                                <input ui-date="dateOptions" datepicker ng-model="user.greg_date" name="user_greg_date" placeholder="Date of Passing" required>
+                            </div>
+                            <div class="false-input">
+                                <div class="required_star"></div>
+                                <input type="text" ng-model="user.hebrew_date" placeholder="Hebrew Date" name="user_hebrew_date">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="checkbox" ng-model="user.deleteImg" name="delete_img" class="col-md-1">
+                            <label class="col-md-3">Delete image</label>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="col-md-3 fileLabel">Upload Image:</label>
+                            <!--<div class="col-md-3 custom-file-input button" ng-file-select ng-file-change="upload($files);">Select File</div>-->
+                            <input type="file" class="col-md-3 custom-file-input" ng-model="user.fileInput" name="user_file" onchange="angular.element(this).scope().fileNameChanged(this, event);"/>
+                            <div class="imgExp" class="col-md-6 fileText">
+                            Minimum image size 210x265. Allowed formats: PNG, JPG, GIF
+                            </div>
+                        </div>
+                        <div class="hidden"><img ng-src="{{myCroppedImage}}" ng-model="user.image" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="col-md-1"></div>    
+        <div class="col-md-7 right-page">
+            <div class="ngdialog-content card-wp form_card">
+                <div class="ngdialog-message card-wp">
+                    <div class="ud_wp">                    
+                        <div class="dFlex">
+                            <div class="ud_left">
+                                <div class="ud_entitle">{{user.fname}} {{user.lname}}</div>
+                                <div class="ud_hebtitle">{{user.hebrew_name}}</div>
+                                <hr class="ud_hr">
+                                <div class="ud_txt"><pre>{{user.description}}</pre></div>
+                            </div>
+                            <div class="ud_right">
+                                <div class="ud_imgDV">
+                                    <img ng-src="{{myCroppedImage}}" ng-model="user.image" id="user_image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ud_bottom">
+                            <div class="ud_date" ng-bind-html="trustedGregDate"></div>
+                            <div class="ud_hebdate">{{user.hebrew_date}}</div>
+                            <div class="ud_tn">ת.נ.צ.ב.ה</div>
+                            <div class="ud_share">Share the memory</div>
+                        </div>
+                    </div>    
+                </div>
+            </div> 
+        </div>    
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-4 left-page submit-wp">
+            <input type="submit" value="Submit" class="loved-btn submit-btn"/>
+        </div>
+    </div>
+    </form>    
+</div>
+<div class="cropBackDialog"></div>
+<div class="cropImageWP">
+    <div><button class="loved-btn" ng-click="closeDropDialog();">save changes</button></div>
+    <div class="cropArea">
+        <img-crop image="myImage" result-image="myCroppedImage" area-type="square"></img-crop>
+    </div>  
+</div>

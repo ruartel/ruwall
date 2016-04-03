@@ -1,0 +1,15 @@
+<div deckgrid class="deckgrid" source="AllUsers">
+    <div class="a-card" ng-controller="CardController" ng-click="openCard(card.id);">
+        <div>
+            <img src="" data-ng-src="{{card.dimg}}" style="width: 100%;">
+        </div>
+        <div class="card-bottom">
+            {{card.id}}
+            <div class="card-name">{{card.first_name}} {{card.last_name}}</div>
+            <div class="card-hebName">{{card.hname}}</div>
+            <hr>
+            <div class="card-date">{{card.theDate}}</div>
+            <div class="card-tn">ת.נ.צ.ב.ה</div>
+        </div>
+    </div>
+</div>

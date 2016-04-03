@@ -1,0 +1,23 @@
+<div class="loved_one_wp">
+    <div>{{countLoved}}
+        <input type="text" ng-model="user[countLoved].fname" placeholder="First Name"/><br />
+        <input type="text" ng-model="user[countLoved].lname" placeholder="Last Name"/><br />
+        <input type="text" ng-model="user[countLoved].hebrew_name" placeholder="Hebrew Name"/><br />
+        <textarea ng-model="user[countLoved].text" placeholder="Additional Information about your loved one / Acomunity he/she was from"></textarea>
+
+        <select ng-model="user[countLoved].date_type">
+            <option value="0">Date of Passing</option>
+            <option value="1">Hebrew Date</option>
+            <option value="2">English Date</option>
+            <option value="0">Both English and Hebrew Dates</option>
+            <option value="0">Unknown</option>
+        </select>
+    </div>
+    <label for="fileInput">Select Image:</label>
+    <input type="file" id="fileInput" />
+    <div class="cropArea">
+        <img-crop image="myImage" result-image="myCroppedImage"></img-crop>
+    </div>
+    <div>Cropped Image:</div>
+    <div><img ng-src="{{myCroppedImage}}" ng-model="users[countLoved].image" /></div>
+</div>
